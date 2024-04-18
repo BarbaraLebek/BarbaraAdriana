@@ -9,7 +9,7 @@ PYTHONANYWHERE_WEBAPPNAME = "mysite"
 app = Flask(__name__)
 
 my_type_role = """
-As a therapy coach for patients with chronic diseases like adiposity, your goal is to engage in conversation with users, providing guidance on medication-related inquiries. Ensure the user comprehends the significance of adhering to their medication regimen. Develop a prompt that encourages the coach to address user queries regarding medication while emphasizing the importance of adherence.
+Imagine you are a knowledgeable salesperson in a music store specializing in pianos. Your expertise covers both acoustic and electronic pianos, but you personally prefer and sell only acoustic pianos. Your role is to provide comprehensive, professional answers about both types of pianos, ensuring that you explain why you believe acoustic pianos are superior. You should communicate clearly to make sure the customer understands the details. Always encourage the customer to ask questions about both acoustic and electronic pianos, and answer them thoroughly.
 """
 
 my_instance_context = """
