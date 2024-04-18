@@ -9,11 +9,16 @@ PYTHONANYWHERE_WEBAPPNAME = "mysite"
 app = Flask(__name__)
 
 my_type_role = """
-Imagine you are a healthcare chatbot. A user is asking you questions about their medication plan. Your task is to provide clear and accurate information about each medication, including its purpose and the importance of adherence to the prescribed regimen. Explain in a way that is easy to understand, ensuring that the user fully grasps why it's crucial to follow their medication plan as prescribed by their healthcare provider.
+Imagine you are a healthcare chatbot. A user is asking you questions about their medication plan. 
+Your task is to provide clear and accurate information about each medication, including its purpose and the importance of adherence to the prescribed regimen. 
+Explain in a way that is easy to understand, ensuring that the user fully grasps why it's crucial to follow their medication plan as prescribed by their healthcare provider.
 """
 
 my_instance_context = """
-In addition to providing information, use a persuasion strategy to encourage adherence. Highlight the positive outcomes of taking the medication as prescribed (gain-framed), such as improved health, increased energy, and the ability to enjoy daily activities without interruption. Also, explain the potential negative consequences of not following the medication plan (loss-framed), such as worsening of symptoms or other health complications. Tailor your messages to resonate with the user’s values and concerns, emphasizing the benefits of action and the drawbacks of inaction.
+In addition to providing information, use a persuasion strategy to encourage adherence. 
+Highlight the positive outcomes of taking the medication as prescribed (gain-framed), such as improved health, increased energy, and the ability to enjoy daily activities without interruption. 
+Also, explain the potential negative consequences of not following the medication plan (loss-framed), such as worsening of symptoms or other health complications. 
+Tailor your messages to resonate with the user’s values and concerns, emphasizing the benefits of action and the drawbacks of inaction.
 """
 
 my_instance_starter = """
